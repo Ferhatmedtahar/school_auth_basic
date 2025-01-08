@@ -35,6 +35,7 @@ export const createChecklist = catchAsync(
 // GET all checklists
 export const getAllChecklists = catchAsync(
   async (req: CustomReq, res: Response, next: NextFunction) => {
+    console.log(req.user.getChecklistById);
     const authorId = req.user.id;
     const allChecklists = await db
       .select()

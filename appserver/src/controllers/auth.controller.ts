@@ -52,6 +52,7 @@ const sendToken = (res: Response, statusCode: number, user: any) => {
 // CREATE a new user (Signup)
 export const signup = catchAsync(
   async (req: Request, res: Response, next: NextFunction) => {
+    console.log(req.body);
     const { name, email, password } = req.body;
 
     if (!name || !email || !password) {
