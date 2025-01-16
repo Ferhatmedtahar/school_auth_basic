@@ -1,12 +1,5 @@
 /*  src folder
 
-TURSO_CONNECTION_URL=libsql://web-tp-branch-ferhatmedtahar.aws-eu-west-1.turso.io
-TURSO_AUTH_TOKEN=eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJpYXQiOjE3MzYyODY2MDIsImlkIjoiNmIyNTFiMmItOTRhYS00ZGE2LWFiZTAtMmU3ZGYyMDQ0Y2EwIiwicmlkIjoiNzBhNmQ3ZTUtZjExNy00NDQyLTliNjYtOWZiOTZlMzI5YTM2In0.cUEYqIWy0NVADTWIdQn8kHWEcQ_99twva4z1GcX5cfzj8-YnYsKd-LaoyC3yL-6VxhAbHIBmy_VkrzzQFotPDQ
-JWT_EXPIRES_IN="7d"
-JWT_SECRET="secretofthechecklistappoftheuser123456789"
-PORT=5000
-NODE_ENV="development"
-JWT_COOKIE_EXPIRES_IN="1"
 
 Api Basics:
 - create an HTTP server
